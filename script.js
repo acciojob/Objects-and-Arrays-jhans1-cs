@@ -12,7 +12,8 @@ const team = players;
 const team1 = [...players];
 
 // Create a copy of the person object using Object.assign
-const cap1 = Object.assign({}, person); here, make sure the name of variables is exactly same as mentioned in the problem statement
+const cap1 = Object.assign({}, person);
+//here, make sure the name of variables is exactly same as mentioned in the problem statement
 
 window.players = players;
 window.person = person;
